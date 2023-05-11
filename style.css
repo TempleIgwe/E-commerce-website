@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+    border-bottom: solid #b5b6c2 ;
+    border-width: 0.09rem;
+    background-color: #e4e6f3;
+}
+.page-list{
+    display: flex;
+    list-style-type: none;
+    
+}
+.page-list, li{
+    padding: 0 1rem;
+}
+.page-list li:hover {
+    color: #088072;
+    position: relative; 
+}
+.page-list li:hover::after{
+    content: '';
+    height: 2px;
+    width: 30%;
+    background: #088072;
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+}
+.page-list li:active::after{
+    content: '';
+    height: 2px;
+    width: 30%;
+    background: #088072;
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+}
+.section-1{
+    background-image: url(./img/hero4.png);
+    background-size: cover;
+    height: 60rem;
+    padding-top: 1rem;
+}
+.section-1 h4{
+    margin: 25rem 4rem 0 ;
+    
+}
+.value-deal{
+    margin: 0 4rem;
+    font-size: 2rem;
+    width: 15rem;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+.value-deal span{
+    color: #088072;
+}
+.save-more{
+    margin: 0 4rem;
+    font-size: 0.8rem;
+    color: #a4a8b5;
+}
+.section-1 div{
+    background-image: url(./img/button.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0.5rem;
+    margin: 1rem 4rem;
+}
+.shop{
+    margin: 0 2rem;
+    color: #088072;
+    font-size: 0.7rem;
+}
